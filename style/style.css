@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  color: #3b92ff;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #115fd3d5;
+  border-radius: 17px;
+  margin: 15px;
+  padding: 15px;
+  height: 17vh;
+}
+input {
+  height: 45px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  caret-color: #3b92ff;
+  padding: 10px;
+  margin: 10px;
+  text-transform: capitalize;
+}
+input[value="Add"],
+button {
+  color: #3b92ff;
+  position: absolute;
+  right: 17%;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 0;
+  font-weight: bold;
+}
+button {
+  margin-top: 3%;
+  width: 80%;
+  right: -30%;
+  transform: translate(-50%,-50%);
+  background-color:#eeeeee;
+  border-left: 4px solid #0856cf;
+  border-right: 4px solid #0856cf;
+}
+ul {
+  margin: 15px;
+  padding: 15px;
+}
+ul li {
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: capitalize;
+  border-left: 4px solid #0856cf;
+  border-radius: 8px;
+  padding: 13px;
+  margin-top: 25px;
+  background-color: #eee;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
+}
+ul li span {
+  position: absolute;
+  right: 5px;
+  top: 8px;
+  font-size: 20px;
+  color: #3b92ff;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+}
+.marked {
+  background-color: #0856cf;
+  color: #0856cf;
+}
